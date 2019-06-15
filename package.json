@@ -10,9 +10,7 @@
     "license": "MIT",
     "renovate-config": {
         "default": {
-            "semanticCommitType": ":arrow_up:",
-            "semanticCommitScope": null,
-            "semanticCommits": true,
+            "commitMessagePrefix": ":arrow_up:",
             "commitMessageAction": "Upgrade",
             "packageRules": [
                 {
@@ -20,14 +18,14 @@
                         "lockFileMaintenance",
                         "pin"
                     ],
-                    "semanticCommitType": ":pushpin:",
+                    "commitMessagePrefix": ":pushpin:",
                     "commitMessageAction": "Pin"
                 },
                 {
                     "updateTypes": [
                         "rollback"
                     ],
-                    "semanticCommitType": ":arrow_down:",
+                    "commitMessagePrefix": ":arrow_down:",
                     "commitMessageAction": "Roll back"
                 },
                 {
@@ -35,7 +33,7 @@
                         "digest",
                         "bump"
                     ],
-                    "semanticCommitType": ":bookmark:"
+                    "commitMessagePrefix": ":bookmark:"
                 }
             ]
         }
