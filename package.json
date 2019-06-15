@@ -1,0 +1,41 @@
+{
+    "name": "renovate-config-gitmoji",
+    "version": "1.0.0",
+    "description": "A gitmoji compatible Renovate config.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "SPGoding <SPGoding@outlook.com>",
+    "license": "MIT",
+    "renovate-config": {
+        "default": {
+            "semanticCommitType": ":arrow_up:",
+            "semanticCommitScope": null,
+            "semanticCommits": true,
+            "commitMessageAction": "Upgrade",
+            "packageRules": [
+                {
+                    "updateTypes": [
+                        "lockFileMaintenance",
+                        "pin"
+                    ],
+                    "semanticCommitType": ":pushpin:"
+                },
+                {
+                    "updateTypes": [
+                        "rollback"
+                    ],
+                    "semanticCommitType": ":arrow_down:"
+                },
+                {
+                    "updateTypes": [
+                        "digest",
+                        "bump"
+                    ],
+                    "semanticCommitType": ":bookmark:"
+                }
+            ]
+        }
+    }
+}
