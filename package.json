@@ -15,7 +15,6 @@
             "packageRules": [
                 {
                     "updateTypes": [
-                        "lockFileMaintenance",
                         "pin"
                     ],
                     "commitMessagePrefix": ":pushpin:",
@@ -26,14 +25,7 @@
                         "rollback"
                     ],
                     "commitMessagePrefix": ":arrow_down:",
-                    "commitMessageAction": "Roll back"
-                },
-                {
-                    "updateTypes": [
-                        "digest",
-                        "bump"
-                    ],
-                    "commitMessagePrefix": ":bookmark:"
+                    "commitMessageAction": "Downgrade"
                 }
             ]
         }
