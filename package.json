@@ -20,13 +20,15 @@
                         "lockFileMaintenance",
                         "pin"
                     ],
-                    "semanticCommitType": ":pushpin:"
+                    "semanticCommitType": ":pushpin:",
+                    "commitMessageAction": "Pin"
                 },
                 {
                     "updateTypes": [
                         "rollback"
                     ],
-                    "semanticCommitType": ":arrow_down:"
+                    "semanticCommitType": ":arrow_down:",
+                    "commitMessageAction": "Roll back"
                 },
                 {
                     "updateTypes": [
