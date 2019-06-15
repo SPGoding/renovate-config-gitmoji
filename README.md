@@ -1,4 +1,4 @@
-# renovate-config-gitmoji"
+# renovate-config-gitmoji
 
 A gitmoji compatible Renovate config.
 
