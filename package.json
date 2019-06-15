@@ -1,6 +1,6 @@
 {
     "name": "renovate-config-gitmoji",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A gitmoji compatible Renovate config.",
     "main": "index.js",
     "scripts": {
