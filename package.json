@@ -1,7 +1,7 @@
 {
     "name": "renovate-config-gitmoji",
     "version": "1.1.0",
-    "description": "A gitmoji compatible Renovate config.",
+    "description": "A Gitmoji compatible Renovate config.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,9 @@
     "license": "MIT",
     "renovate-config": {
         "default": {
+            "labels": [
+                "dependencies"
+            ],
             "commitMessagePrefix": ":arrow_up:",
             "commitMessageAction": "Upgrade",
             "packageRules": [
