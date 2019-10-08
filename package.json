@@ -19,9 +19,8 @@
     "renovate-config": {
         "default": {
             "labels": [
-                "dependencies"
+                ":pushpin: dependencies"
             ],
-            "automerge": true,
             "commitMessagePrefix": ":arrow_up:",
             "commitMessageAction": "Upgrade",
             "major": {
