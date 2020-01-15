@@ -5,7 +5,7 @@
         [
             "@semantic-release/github",
             {
-                "releasedLabels": [":ok_hand: resolved", ":rocket: released"]
+                "releasedLabels": [":rocket: released"]
             }
         ],
         [
