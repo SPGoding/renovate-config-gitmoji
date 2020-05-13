@@ -19,9 +19,9 @@
     "renovate-config": {
         "default": {
             "labels": [
-                ":pushpin: dependencies"
+                "📌 dependencies"
             ],
-            "commitMessagePrefix": ":arrow_up:",
+            "commitMessagePrefix": "⬆️",
             "commitMessageAction": "Upgrade",
             "major": {
                 "automerge": false
@@ -31,14 +31,14 @@
                     "updateTypes": [
                         "pin"
                     ],
-                    "commitMessagePrefix": ":pushpin:",
+                    "commitMessagePrefix": "📌",
                     "commitMessageAction": "Pin"
                 },
                 {
                     "updateTypes": [
                         "rollback"
                     ],
-                    "commitMessagePrefix": ":arrow_down:",
+                    "commitMessagePrefix": "⬇️",
                     "commitMessageAction": "Downgrade"
                 }
             ]
