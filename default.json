@@ -1,0 +1,21 @@
+{
+  "description": "A Gitmoji compatible Renovate config",
+  "labels": ["📌 dependencies"],
+  "commitMessagePrefix": "⬆️",
+  "commitMessageAction": "Upgrade",
+  "major": {
+    "automerge": false
+  },
+  "packageRules": [
+    {
+      "updateTypes": ["pin"],
+      "commitMessagePrefix": "📌",
+      "commitMessageAction": "Pin"
+    },
+    {
+      "updateTypes": ["rollback"],
+      "commitMessagePrefix": "⬇️",
+      "commitMessageAction": "Downgrade"
+    }
+  ]
+}

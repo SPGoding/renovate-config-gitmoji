@@ -1,0 +1,26 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: corepack enable
+      - uses: actions/setup-node@v4
+        with:
+          cache: "npm"
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 🧪 Test project
+        run: npm test
