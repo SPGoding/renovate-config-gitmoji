@@ -12,6 +12,6 @@ Write following texts in your Renovate config (e.g. `renovaterc.json`):
 
 ```JSON
 {
-    "extends": ["gitmoji"]
+    "extends":  ["github>SPGoding/renovate-config-gitmoji"]
 }
 ```
